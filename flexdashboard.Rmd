@@ -1,0 +1,68 @@
+----
+title: "My First Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+# rmarkdown::render("dashboard.rmd", output_format = "flexdashboard::flex_dashboard")
+```
+
+```{r, warning=FALSE, echo=FALSE}
+rest_inspec_american =
+  rest_inspec %>%
+  filter(boro != "Missing") %>% 
+  filter(str_detect(dba, "[Aa][Mm][Ee][Rr][Ii][Cc][Aa][Nn]")) %>%
+  mutate(
+    year = substr(as.character(inspection_date), 1,4), 
+    boro = str_to_title(boro),
+    score = as.numeric(score))
+rest_inspec_line=
+  rest_inspec_american %>% 
+  group_by(year, boro) %>%
+  summarize(
+    mean_score = mean(score, na.rm = TRUE)
+  )
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Boxplot showing the distribution of scores given to American restaurants by year
+
+```{r, warning=FALSE, echo=FALSE}
+rest_inspec_american %>% 
+  plot_ly(y = ~score, color = ~year, type = "box",
+          colors = "Set2")
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Line graph: American restaurants in each borough over time
+
+```{r, echo=FALSE}
+line_ggplot = 
+  rest_inspec_line %>%
+  ggplot(aes(x = year, y = mean_score, color = boro)) +
+  geom_point() + 
+  geom_line()
+ggplotly(line_ggplot)
+```
+
+### Bar graph: American restaurants in each borough
+
+```{r, echo=FALSE}
+rest_inspec_american %>% 
+  count(boro) %>%
+  mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar")
+```
