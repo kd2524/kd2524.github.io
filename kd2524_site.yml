@@ -1,14 +1,26 @@
-name: "Yay internet!"
+name: "Katherine Dimitropoulou, PhD, OTR/L"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Katherine Dimitropoulou, PhD, OTR/L"
+
+    text: "Education"
+      href: research.html
+    - text: "Research Interests"
+      href: talks.html
+    - text: "Publications"
+      href: software.html
+    - text: "Teaching "
+      href: teaching.html
   right:
-    - text: "About"
-      href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: contact.html
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/kd2524
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/DimitropoulouDr
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/dimitropoulou-katherine-b1316611b/
 output:
   html_document:
-    theme: cerulean
+    theme: paper
+    css: 'styles.css'
