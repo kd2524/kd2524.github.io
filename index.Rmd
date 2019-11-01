@@ -1,0 +1,27 @@
+
+--
+title: "Katherine Dimitropoulou PhD, OTR/L"
+---
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<img src="./k Dimitropoulou Headshot.jpeg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+I am an Assistant Professor of Rehabilitation & Regenerative Medicine at the [Department of Rehabilitation & Regenerative Medicine, Columbia University](http://www.cumc.columbia.edu/rehab/education), [Occupational Therapy Programs](http://www.cumc.columbia.edu/rehab/education/occupational-therapy).
+
+I am a researcher and a teacher with specialty in children with neurological disorders. I am interested in how children learn how to engage with functional tasks and lead productive lives. 
+
+I am a member and a strong supporter of the [American Academy for Cerebral Palsy and Developmental Medicine](https://www.aacpdm.org/). I am frequently attend and present my research work at the annual conference of the [American Occupational Therapy Association](), the [Cognitive Neuroscience Society](https://www.cogneurosociety.org/), the [Society for Neuroscience](https://www.sfn.org/about). My research activities and interests can be further explored at my [Columbia University_Website](https://www.ps.columbia.edu/katherine-dimitropoulou-phd-otr-l)
+
+In my free time, I love swimming, sailing, boating, and outdoor activities (i.e., hiking, climbing, fishing). I spend a lot of my free time in [Old Lyme, CT](https://www.oldlyme-ct.gov/) with my husband and my son. 
+
+I am fully supportive and a board member of the [Cerebral Palsy Soccer Association](https://www.cpsoccer.us/partner) that aims to promote of physical activity and participation in sports for children and adolescents with cerebral palsy.
+
