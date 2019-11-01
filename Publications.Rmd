@@ -1,0 +1,25 @@
+---
+title: "Publications"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+My most recent publications are:
+Gordon-Handler, L., Dimitropoulou, K., Hassan, L, Masaracchio, M., & Waldman-Levi, A. (2019). An exploration of graduate health care student writing skills using a transformational learning approach to a literacy enrichment program. Journal of Allied Health Professions.
+
+Dimitropoulou K. Baxter, M.(2018) Neural Basis of Adaptation: Motivation, Intention, Resilience, and Goal-directed Behaviors. In Grajo, L. & Biosselle, A.,  (Eds.) Adaptation through Occupation: Multidimensional Perspectives. Slack. 
+
+Dimitropoulou, K., & Sarafian,  A. (2017). Sensory Processing & Functional Performance in Children with Cerebral Palsy: A Systematic Review. Panel Presentation, 29th European Academy of Childhood Disability (EACD), May 17 - 20, 2017, Amsterdam, NL. Journal of Developmental Medicine and Child Neurology, conference proceedings.
+
+Tamis-�‐LeMonda, C. S., Adolph, K. E., Lobo, S. A., Karasik, L. B., Dimitroupoulou,
+K. D., & Ishak, S. (2008). When infants take mothers’ advice: 18-�‐month-�‐olds
+integrate perceptual and social information for guiding motor action.
+Developmental Psychology, 44, 734-�‐746.
+
+Karasik, L. B., Tamis‐LeMonda, C. S, Adolph, K. E. Dimitropoulou, K. A., (2008). How mothers encourage and discourage infants’ motor actions. Infancy, 13: 4, 366-392.
+2007	Tamis‐LeMonda, C. S, Adolph, K. E., Dimitropoulou, K. A. & Zack E. A. (2007). “No! Don’t! Stop!”: Mothers’ Words for Impending Danger. Parenting: Science and Practice, 7, 1-25.
+
+Dimitropoulou, K. A., Nass, R., Adolph, K. E. (2007). Adaptive motor decisions in children with congenital hemiplegia. Supplement to Neurology(68), 12, Suppl. 1
+
