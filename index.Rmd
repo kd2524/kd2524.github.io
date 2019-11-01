@@ -1,6 +1,5 @@
 
-Katherine Dimitropoulou PhD, OTR/L
-
+Title: "Katherine Dimitropoulou, PhD, OTR/L"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -17,4 +16,6 @@ I am a member and a strong supporter of the [American Academy for Cerebral Palsy
 In my free time, I love swimming, sailing, boating, and outdoor activities (i.e., hiking, climbing, fishing). I spend a lot of my free time in [Old Lyme, CT](https://www.oldlyme-ct.gov/) with my husband and my son. 
 
 I am fully supportive and a board member of the [Cerebral Palsy Soccer Association](https://www.cpsoccer.us/partner) that aims to promote of physical activity and participation in sports for children and adolescents with cerebral palsy.
+
+
 

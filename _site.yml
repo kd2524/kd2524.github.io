@@ -1,16 +1,15 @@
+
 name: "Katherine Dimitropoulou, PhD, OTR/L"
 output_dir: "."
 navbar:
   title: "Katherine Dimitropoulou, PhD, OTR/L"
-
-    text: "Education"
-      href: research.html
+  left:
+    - text: "Education"
+      href:  about.html
     - text: "Research Interests"
-      href: talks.html
+      href: Research Interests.html
     - text: "Publications"
-      href: software.html
-    - text: "Teaching "
-      href: teaching.html
+      href: Publications.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -22,5 +21,4 @@ navbar:
       href: https://www.linkedin.com/in/dimitropoulou-katherine-b1316611b/
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: cerulean
